@@ -17,6 +17,7 @@ plugins {
     id("io.gitlab.arturbosch.detekt") version "1.17.1"
     // ktlint linter - read more: https://github.com/JLLeitschuh/ktlint-gradle
     id("org.jlleitschuh.gradle.ktlint") version "10.0.0"
+    id("io.freefair.lombok") version "5.3.3.3"
 }
 
 group = properties("pluginGroup")
@@ -24,10 +25,12 @@ version = properties("pluginVersion")
 
 // Configure project's dependencies
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 dependencies {
     detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.17.1")
+    implementation("com.dmcfall.stringInterpolator:JavaStringInterpolation:1.0-DEV")
 }
 
 // Configure gradle-intellij-plugin plugin.
