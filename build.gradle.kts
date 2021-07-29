@@ -30,7 +30,7 @@ repositories {
 }
 dependencies {
     detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.17.1")
-    implementation("com.dmcfall.stringInterpolator:JavaStringInterpolation:1.0-DEV")
+    implementation("com.github.schorcher.stringInterpolator:JavaStringInterpolation:1.0-DEV")
 }
 
 // Configure gradle-intellij-plugin plugin.
