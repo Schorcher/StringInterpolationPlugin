@@ -1,4 +1,4 @@
-package com.dmcfall.stringInterpolation;
+package com.github.schorcher.stringInterpolation;
 
 import com.dmcfall.stringInterpolator.StringInterpolation;
 import com.intellij.lang.java.JavaLanguage;
