@@ -25,12 +25,15 @@ version = properties("pluginVersion")
 
 // Configure project's dependencies
 repositories {
-    mavenLocal()
+//    mavenLocal()
     mavenCentral()
+    maven {
+        setUrl("https://s01.oss.sonatype.org/content/repositories/snapshots/")
+    }
 }
 dependencies {
     detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.17.1")
-    implementation("com.github.schorcher.stringInterpolator:JavaStringInterpolation:1.0-DEV")
+    implementation("io.github.schorcher.stringInterpolator:stringInterpolator:0.8.0-SNAPSHOT")
 }
 
 // Configure gradle-intellij-plugin plugin.

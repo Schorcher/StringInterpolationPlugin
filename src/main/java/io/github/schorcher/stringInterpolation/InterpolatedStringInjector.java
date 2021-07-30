@@ -1,6 +1,6 @@
-package com.github.schorcher.stringInterpolation;
+package io.github.schorcher.stringInterpolation;
 
-import com.github.schorcher.stringInterpolator.StringInterpolation;
+import io.github.schorcher.stringInterpolator.StringInterpolation;
 import com.intellij.lang.java.JavaLanguage;
 import com.intellij.openapi.util.TextRange;
 import com.intellij.psi.*;

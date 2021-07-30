@@ -1,4 +1,4 @@
-package com.github.schorcher.stringInterpolation;
+package io.github.schorcher.stringInterpolation;
 
 import com.intellij.lang.java.JavaLanguage;
 import lombok.Getter;

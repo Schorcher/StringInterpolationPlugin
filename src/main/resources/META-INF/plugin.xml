@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>com.github.schorcher.stringInterpolation</id>
+    <id>io.github.schorcher.stringInterpolation</id>
     <name>Java String Interpolation</name>
     <vendor>Schorcher</vendor>
 
@@ -8,6 +8,6 @@
     <depends>com.intellij.modules.java</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <languageInjector implementation="com.github.schorcher.stringInterpolation.InterpolatedStringInjector" order="first"/>
+        <languageInjector implementation="io.github.schorcher.stringInterpolation.InterpolatedStringInjector" order="first"/>
     </extensions>
 </idea-plugin>

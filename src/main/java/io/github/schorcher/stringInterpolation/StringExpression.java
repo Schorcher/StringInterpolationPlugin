@@ -1,4 +1,4 @@
-package com.github.schorcher.stringInterpolation;
+package io.github.schorcher.stringInterpolation;
 
 import com.intellij.lang.Language;
 import lombok.AllArgsConstructor;
